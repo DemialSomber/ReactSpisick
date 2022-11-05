@@ -1,0 +1,103 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	background: rgb(34,34,34);
+	
+	font-family: Courier;
+}
+#root {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+.App {
+	width: 800px;
+	
+}
+.post {
+	
+	display: flex;
+	padding: 15px;
+	border: 2px solid white;
+	border-radius: 8px;
+	margin-top: 15px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(34,34,34);
+	color: LavenderBlush;
+	
+}
+h1 {
+	text-align: center;
+}
+.postNonDef {
+	margin-top: 10%;
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+}
+hr {
+	margin: 10px 0 10px 0;
+	
+}
+
+.post-enter {
+  transform: translateX(-3000px);
+}
+.post-enter-active {
+  transform: translateX(0px);
+  transition: all 300ms ease-in;
+}
+.post-exit {
+  opacity: 1;
+}
+.post-exit-active {
+  transform: translateX(-3000px);
+  transition: all 500ms ease-in;
+}
+
+.page__wrapper {
+	display: inline-flex;
+	margin: 0px 4.57% 10px 0;
+	padding: 5px 15px;
+	color: black;
+	font-size: 14px;
+	background: transparent;
+	border: 2px solid white;
+	cursor: pointer;
+	border-radius: 5px;
+	color: white;
+	}
+
+.page__current {
+	font-weight: bold;
+	border: 3px solid rgb(46, 46, 46) ;
+	color: white;
+}
+h1 {
+	color: white;
+	font-family: "Apple Chancery", cursive;
+}
+h2 {
+	color: white;
+	text-align: center;
+	font-family: "Apple Chancery", cursive;
+}
+
+h5 {
+	color: white;
+	margin-left: 20px;
+}
+h4 {
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+	
+}
+form {
+	background-color: rgb(34,34,34) ;
+}

@@ -1,0 +1,48 @@
+.myBtn {
+	color: white;
+	margin: 0 20px 0 0;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: transparent;
+	border: 0px;
+	font-family: "Apple Chancery", cursive;
+	
+	
+}
+.navBar_links {
+	height: 80px;
+	width: 100%;
+	display: inline-flex;
+	justify-content: flex-start;
+	
+	padding: 0 15px;
+	background: rgb(34,34,34);
+	background: linear-gradient(0deg, rgba(34,34,34,1) 0%, rgba(15,15,15,1) 71%);
+	box-shadow: 0px 5px rgb(80, 80, 80);
+}
+
+.myLink {
+	outline: none;
+  text-decoration: none;
+	
+}
+.myLink:link {
+ color: white;
+}
+.myLink:visited {
+	color: white;
+}
+.myLink:hover {
+  
+	background: linear-gradient(to left, orange, OrangeRed 100%);
+	background-position: 0 100%;
+	background-size: 100% 2px;
+	background-repeat: repeat-x;
+}
+.logo {
+	position: absolute;
+	left: 90%;
+	top:20px;
+	width: 100px;
+	height: 40px;
+}

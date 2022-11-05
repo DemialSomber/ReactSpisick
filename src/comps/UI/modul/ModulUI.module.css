@@ -1,0 +1,22 @@
+.myModul {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: none;
+	background: rgba(0,0,0, 0.5);
+}
+
+.myModulContent {
+	padding: 20px;
+	background-color: rgb(34,34,34);
+	border-radius: 10px;
+	min-width: 300px;
+}
+
+.myModul.active {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
